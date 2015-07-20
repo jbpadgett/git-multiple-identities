@@ -36,8 +36,6 @@ User git
 IdentityFile ~/.ssh/id_myuserid-professional@example.com
 IdentitiesOnly yes
 
-
-
 #SSH Bitbucket Personal Public Account
 #Maps to a per repo .git/config email setting to work
 Host bitbucket.org

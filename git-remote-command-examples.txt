@@ -1,0 +1,26 @@
+
+# Personal Git Remote Origin URL update
+###########################################
+
+#Check cloned path
+git remote -v
+
+#Change cloned path
+git remote set-url origin git@github.com-myuserid-personal:myuserid-personal/project1.git
+
+#Verify your changed path
+git remote -v
+
+
+
+# Professional Git Remote Origin URL update
+###########################################
+
+#Check cloned path
+git remote -v
+
+#Change cloned path
+git remote set-url origin git@github.com-myuserid-professional:myuserid-professional/project2.git
+
+#Verify your changed path
+git remote -v
