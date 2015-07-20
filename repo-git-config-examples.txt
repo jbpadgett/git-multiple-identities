@@ -1,0 +1,53 @@
+Examples:
+cat ~/git-repos/github-public/personal/project1/.git/config
+—— snipped ----
+
+[remote "origin"]
+    url = git@github.com-myuserid-personal:myuserid-personal/project1.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+
+—— snipped ----
+
+
+
+cat ~/git-repos/github-public/professional/project2/.git/config
+—— snipped ----
+
+[remote "origin"]
+    url = git@github.com-myuserid-professional:myuserid-professional/project2.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+
+—— snipped ----
+
+
+
+cat ~/git-repos/bitbucket/personal/project3/.git/config
+—— snipped ----
+[remote "origin"]
+    url = git@bitbucket.org:myuserid-personal/project3.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+
+—— snipped ----
+
+
+
+cat ~/git-repos/github-enterprise/professional/project4/.git/config
+—— snipped ----
+
+[remote "origin"]
+    url = git@github.example.com:myuserid-professional/project4.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+
+—— snipped ----
+
+
+
+cat ~/git-repos/git-o-lite/professional/project5/.git/config
+—— snipped ----
+
+[remote "origin"]
+    url = git@git-o-lite.example.com:myuserid-professional/project5.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+
+—— snipped ----
+

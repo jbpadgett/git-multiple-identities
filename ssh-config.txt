@@ -1,0 +1,65 @@
+#######################################################
+# CUSTOM .SSH CONFIG FILE FOR MULTIPLE GIT IDENTITIES #
+#######################################################
+
+#SSH Github Personal Public Account
+#Maps to a per repo .git/config email setting to work
+Host github.com-myuserid-personal
+HostName github.com
+User git
+IdentityFile ~/.ssh/id_myuserid-personal@example.com
+IdentitiesOnly yes
+#LogLevel DEBUG3
+
+#SSH Github Personal Public Account GISTS
+#Maps to a per repo .git/config email setting to work
+Host github.com-myuserid-personal
+HostName gists.github.com
+User git
+IdentityFile ~/.ssh/id_myuserid-personal@example.com
+IdentitiesOnly yes
+
+#SSH Github Professional Public Account
+#Maps to a per repo .git/config email setting to work
+Host github.com-myuserid-professional
+HostName github.com
+User git
+IdentityFile ~/.ssh/id_myuserid-professional@example.com
+IdentitiesOnly yes
+#LogLevel DEBUG3
+
+#SSH Github Personal Public Account GISTS
+#Maps to a per repo .git/config email setting to work
+Host github.com-myuserid-professionall
+HostName gists.github.com
+User git
+IdentityFile ~/.ssh/id_myuserid-professional@example.com
+IdentitiesOnly yes
+
+
+
+#SSH Bitbucket Personal Public Account
+#Maps to a per repo .git/config email setting to work
+Host bitbucket.org
+HostName bitbucket.org
+User git
+IdentityFile ~/.ssh/id_myuserid-personal@example.com
+IdentitiesOnly yes
+#LogLevel DEBUG3
+
+#SSH Github Enterprise Account
+#Maps to a per repo .git/config email setting to work
+Host github.example.com
+HostName github.example.com
+User myldapuserid
+IdentityFile ~/.ssh/id_myuserid-professional@example.com
+IdentitiesOnly yes
+#LogLevel DEBUG3
+
+#SSH Private Git-o-lite
+#Maps to a per repo .git/config email setting to work
+Host gitolite.example.com
+HostName gitolite.example.com
+User gitolite
+IdentityFile ~/.ssh/id_myuserid-professional@example.com
+IdentitiesOnly yes
