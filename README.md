@@ -12,10 +12,11 @@ Project Files
 `git-multiple-identities/ssh-config.txt`  
 * This file demonstrates how to construct a specific ssh public key for different services, as well as multiple accounts with the same service.  
 
+`git-multiple-identities/repo-git-config-examples.txt`  
+* This file demonstrates what a `.git\config` for a repo with various reference scenarios might look like.  
+
 `git-multiple-identities/git-remote-command-examples.txt`  
 * This file demonstrates how to set and verify that you have correctly modified the `.git/config` url path/origin settings correctly.  
 
-`git-multiple-identities/repo-git-config-examples.txt`  
-* This file demonstrates what a `.git\config` for a repo with various reference scenarios might look like.  
 
 
